@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/olaudah-equiano/the-interesting-narrative-of-the-life-of-olaudah-equiano</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2021-04-29T17:27:43Z</dc:date>
+		<meta property="dcterms:modified">2021-04-29T17:27:43Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -24,6 +24,7 @@
 		<meta property="schema:accessibilityFeature">readingOrder</meta>
 		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
+		<meta property="schema:accessibilityFeature">unlocked</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.1 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
@@ -46,15 +47,15 @@
 		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">An autobiography of an ex-slave in the mid 1700s.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;In the mid 1700s, around the age of eleven, &lt;a href="https://standardebooks.org/ebooks/olaudah-equiano"&gt;Olaudah Equiano&lt;/a&gt; and his sister were kidnapped from their village in equatorial Africa and sold to slavers. Within a year he was aboard a European slave ship on his way to the Caribbean. &lt;i&gt;The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African&lt;/i&gt; was published by the author in 1789 and is part adventure story, part treatise on the corrupting power of slavery and part tract about the transformative powers of Christianity.&lt;/p&gt;
-			&lt;p&gt;Equiano’s story takes him from Africa to the Americas, back across the Atlantic to England, into the Mediterranean and even north to the ice packs on a mission to discover the North-East passage. He fights the French in the Seven Year’s War, is a mate and merchant in the West Indies and eventually becomes a freedman based in London.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;The Interesting Narrative of the Life of Olaudah Equiano&lt;/i&gt; was one of the first popular slave narratives and was reprinted eight times within the author’s life. While modern scholars value this account as an important source on the life of the eighteenth-century slave and the transition from slavery to freedom, it remains an important literary work in its own right. As a valuable part of the African and African-American canons, it is still frequently taught in both English and History university courses.&lt;/p&gt;
+			&lt;p&gt;In the mid 1700s, around the age of eleven, &lt;a href="https://standardebooks.org/ebooks/olaudah-equiano"&gt;Olaudah Equiano&lt;/a&gt; and his sister were kidnapped from their village in equatorial Africa and sold to slavers. Within a year he was aboard a European slave ship on his way to the Caribbean. &lt;i&gt;The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African&lt;/i&gt; was published by the author in 1789 and is part adventure story, part treatise on the corrupting power of slavery, and part tract about the transformative powers of Christianity.&lt;/p&gt;
+			&lt;p&gt;Equiano’s story takes him from Africa to the Americas, back across the Atlantic to England, into the Mediterranean, and even north to the ice packs, on a mission to discover the North-East passage. He fights the French in the Seven Year’s War, is a mate and merchant in the West Indies, and eventually becomes a freedman based in London.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Interesting Narrative of the Life of Olaudah Equiano&lt;/i&gt; was one of the first popular slave narratives and was reprinted eight times in the author’s lifetime. While modern scholars value this account as an important source on the life of the eighteenth-century slave and the transition from slavery to freedom, it remains an important literary work in its own right. As a valuable part of the African and African-American canons, it is still frequently taught in both English and History university courses.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/15399</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/101686770</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">80574</meta>
+		<meta property="se:reading-ease.flesch">56.42</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Interesting_Narrative_of_the_Life_of_Olaudah_Equiano</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/olaudah-equiano_the-interesting-narrative-of-the-life-of-olaudah-equiano</meta>
 		<dc:creator id="author">Olaudah Equiano</dc:creator>
@@ -86,6 +87,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
