@@ -54,7 +54,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/15399</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/101686770</dc:source>
-		<meta property="se:word-count">80574</meta>
+		<meta property="se:word-count">80570</meta>
 		<meta property="se:reading-ease.flesch">56.42</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Interesting_Narrative_of_the_Life_of_Olaudah_Equiano</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/olaudah-equiano_the-interesting-narrative-of-the-life-of-olaudah-equiano</meta>
